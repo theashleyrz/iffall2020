@@ -1,0 +1,93 @@
+p {
+    color:blanchedalmond;
+    display: inline-block
+    font-size 20px;
+    align-content: flex-end;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+    
+
+h2 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.firstParagraph {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid teal;
+    border-radius: 10px;
+    background-color: teal;
+}
+
+.secondParagraph {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.thirdParagraph {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid darkseagreen;
+    border-radius: 10px;
+    background-color: darkseagreen;
+}
+
+.Peter {
+    color: darkslateblue;
+    display: inline;
+    align-content: flex-start;
+    margin-right: auto;
+}
+.Dana {
+    color: darkblue;
+    display: inline;
+    align-content: flex-start;
+    margin-right: auto;
+    
+}
+
+.Mayor {
+    color: green;
+    display: inline;
+    align-content: flex-start;
+    margin-right: auto;
+    
+}
+
+.Ray {
+    color: darkmagenta;
+    display: inline;
+    align-content: flex-start;
+    margin-right: auto;
+    
+}
+
+.Egon{
+    color: magenta;
+    display: inline;
+    align-content: flex-start;
+    margin-right: auto;
+    
+}
+
+.Winston{
+    color: darkorchid;
+    display: inline;
+    align-content: flex-start;
+    margin-right: auto;
+    
+}
+
+body {
+    background-color: darkolivegreen;
+  }
+
