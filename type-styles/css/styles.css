@@ -1,0 +1,114 @@
+html {
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-size: 15pts;
+  }
+body{
+    margin: 10%;
+    color:palevioletred
+}
+
+h1{
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-size: 50pt;
+    letter-spacing: -.02em;
+    text-transform: capitalize;
+    text-indent: -1rem;
+    font-weight: bold;
+}
+
+h2{
+    display: block;
+    color: darkred;
+    font-size: 1.6em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3{
+    display: block;
+    color: purple;
+    font-size: 1.37em;
+    margin-block-start: 1.2em;
+    margin-block-end: 1.2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+    font-size: 16pt;
+    line-height: 1.4;
+}
+sup{
+    font-size: 60%;
+}
+dfn{
+
+    font-weight: bold;
+}
+small{
+    font-style: italic;
+}
+aside{
+    text-align: center;
+}
+cite{
+    text-align: right;
+    display: block;
+}
+article{
+    margin: 6rem 0;
+}
+section{
+    margin: 2rem 0;
+}
+a{ 
+    text-decoration: none;
+}
+p.normal {
+    font-weight: normal;
+  }
+  
+  p.fourhunty {
+    font-weight: 400;
+  }
+  
+  p.thick {
+    font-weight: 600;
+  }
+  
+  p.thicker {
+    font-weight: 700;
+  }
+  p.underline {
+    text-decoration: underline;
+  }
+
+p.overline {
+  text-decoration: overline;
+}
+
+p.linethrough {
+  text-decoration: line-through;
+}
+p.uppercase {
+    text-transform: uppercase;
+  }
+p.lowercase {
+    text-transform: lowercase;
+  }
+p.capitalize {
+    text-transform: capitalize;
+  }
+ p.negativeOne {
+    letter-spacing: -1px;
+  }
+  p.three{
+    letter-spacing: 3px;
+  }
+  p.one{
+    letter-spacing: 0.32em;
+  }
