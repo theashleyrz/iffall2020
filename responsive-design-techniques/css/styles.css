@@ -1,0 +1,89 @@
+/* Make the <body> of this document be 800px wide and 90% the width of the viewport, whichever is smaller. Center the body on the page no matter how wide the viewport is.
+Make the background-color of this document to #eaf6ff when the viewport width is 640px or more.
+
+Make the <h1> on this page have a font-size of 1.5rem when the viewport width is below 500px, and 2.5rem when the viewport width is above 640px.
+
+Turn the following list into a grid of boxes that wrap horizontally (side-by-side until they run out of room and wrap to the next line). Make each <aside> 170px wide, with a 10px margin. Set the font-size for the boxes to be 0.8rem. Be sure to remove the bullets associated with the <li> tags, and remove the default padding-left on the <ul>.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.
+Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.
+As above, make a grid of boxes that wrap horizontally. This time, give each <li> a width of 100%. When the viewport width is greater than 480px, make each <li> be 50% wide. If the viewport is greater than 640px, make each <li> be 25% wide. The grid should be 1-across at small widths, 2-across at medium widths, and 4-across and large widths. Don't set a width on the <aside> elements, but be sure they have a 10% margin.
+
+Now, set the <ul> to have a margin of -10px left and right, 1rem top and bottom. What happens?
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.
+Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident. */
+
+body {
+    max-width: 800px;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaf6ff;
+}
+
+@media (min-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+li {
+    display: list-item;
+}
+
+#fixed-size-grid-items aside {
+    width: 170px;
+    font-size: 0.8rem;
+    margin: 10px;
+}
+
+#fixed-size-grid-items ul {
+    padding-left: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+#stretchable-grid-items li {
+    width: 100%;
+}
+
+#stretchable-grid-items aside {
+    margin: 10%;
+}
+
+aside {
+    display: block;
+}
+
+@media (min-width: 480px) {
+    #stretchable-grid-items li {
+        width: 50%;
+    }
+}
+
+@media (min-width: 640px) {
+    #stretchable-grid-items li {
+        width: 25%;
+    }
+}
+
+#stretchable-grid-items ul {
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
