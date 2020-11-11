@@ -1,0 +1,51 @@
+html {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pts;
+  }
+body{
+    margin: 10%;
+}
+
+h1{
+    color: black;
+    font-family: vista slab, sans-serif;
+    letter-spacing: -.02em;
+    text-transform: capitalize;
+    text-indent: -1rem;
+
+}
+p{
+    font-size: 13pt;
+    line-height: 1.4;
+}
+sup{
+    font-size: 60%;
+}
+dfn{
+
+    font-weight: bold;
+    text-transform: lowercase;
+}
+small{
+    font-style: italic;
+}
+aside{
+    text-align: center;
+}
+cite{
+    text-align: right;
+    display: block;
+}
+article{
+    margin: 6rem 0;
+}
+section{
+    margin: 2rem 0;
+}
+a{ 
+    text-decoration: none;
+}
+code{
+    color: blue;
+}
