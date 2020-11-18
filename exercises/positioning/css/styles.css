@@ -1,0 +1,37 @@
+.static-example .positioned-element {
+    background-color: green;
+    left: 100px;
+}
+
+.relative-example .positioned-element {
+    background-color: lightblue;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+
+/* position: absolute;
+top: 0; */
+
+.absolute-example {
+    position: relative;
+    right: 0;
+}
+
+
+/* position: fixed;.
+top: 0; 
+left: 0;.
+width: 100%;
+
+top: 50px; */
+
+
+/* launch-button:active .fa-burn::before ruleset, and add:
+display: block; Not sure why, but needs this to animate.
+transform-origin: center bottom; This means "apply the transform around an axis at the base of the flame, not the center of it."
+animation-name: burn; This tells the element that it should use the "burn" keyframes.
+animation-duration: 0.1s; Specifies the time over which a single 'loop' of the keyframes should span.
+animation-iteration-count: infinite; This tells the animation to loop without end (as long as this selector applies).
+animation-direction: alternate; */
